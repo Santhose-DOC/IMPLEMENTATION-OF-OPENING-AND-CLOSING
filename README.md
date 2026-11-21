@@ -81,11 +81,20 @@ plt.show()
 ### Display the Input Image
 * A `500 x 500` black background image containing the white text `SANTHOSE AROCKIARAJ J` is displayed.
 
+<img width="389" height="410" alt="download" src="https://github.com/user-attachments/assets/53072e64-179c-4d06-88fe-cc2075d2a825" />
+
+
 ### Display the Result of Opening
 * The image after applying `cv2.MORPH_OPEN` is displayed. Opening performs erosion followed by dilation, which removes small external noise/thin strokes while preserving the overall shape and size of larger foreground characters.
 
+<img width="389" height="410" alt="download" src="https://github.com/user-attachments/assets/d4da622c-185b-44de-a7d6-4c65198eea02" />
+
+
 ### Display the Result of Closing
 * The image after applying `cv2.MORPH_CLOSE` is displayed. Closing performs dilation followed by erosion, which closes small internal holes or gaps within the foreground characters.
+
+<img width="389" height="410" alt="download" src="https://github.com/user-attachments/assets/dd0896b5-bd55-4bd0-afb2-806557479352" />
+
 
 ## Result
 
